@@ -1,0 +1,126 @@
+body {
+    margin-top: 100px;
+    font-family: 'Times New Roman', Times, serif;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    row-gap: 10px;
+    background-color: #242424;
+    color:#ffffff
+   
+}
+.heading{
+    font-weight: 100px;
+
+}
+#task {
+    /* layout */
+    width: 250px; /* adjust the width to your needs */
+    height: 40px;
+    padding: 5px;
+    margin: 5px;
+    display: inline-block;
+
+  
+    /* visual styles */
+    background-color: #f9f9f9; /* light gray */
+    border: 1px solid #ccc; /* light gray border */
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  
+    /* typography */
+    font-size: 25px;
+    font-family: Arial, sans-serif;
+    color: #333;
+  
+    /* focus effect */
+    transition: border-color 0.3s ease;
+  }
+  #task:focus {
+    border-color: #aaa; /* darker gray border on focus */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+
+  .add-btn {
+    /* position: absolute;
+    top: 50%; */
+    background-color: #0a0a23;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    min-height: 30px;
+    min-width: 80px;
+    cursor: pointer;
+  }
+  
+  .add-btn:hover {
+    background-color: #002ead;
+    transition: 0.7s;
+  }
+  
+  .add-btn:focus {
+    outline-color: transparent;
+    outline-style: solid;
+    box-shadow: 0 0 0 4px #5a01a7;
+    transition: 0.7s;
+  }
+  
+  .add-btn:active {
+    background-color: #001f42;
+    box-shadow: 0 0 0 4px #5a01a7;
+  }
+
+  /* list styles */
+.list li {
+    padding: 0;
+    /* margin-right: 20px */
+  
+  
+  
+    /* typography */
+    font-size: 30px;
+    font-family: Arial, sans-serif;
+    color: #f2ececfd;
+  }
+  
+  .list li {
+    /* layout */
+    padding: 10px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc; /* light gray border */
+  
+    /* visual styles */
+    /* background-color: #ffffff; white */
+  }
+
+  /* delete button styles */
+.delete-btn {
+    /* layout */
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+  
+    /* visual styles */
+    background-color: #FF3737; /* bright red */
+    color: #ffffff; /* white text */
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  
+    /* hover effect */
+    transition: background-color 0.3s ease;
+  }
+  
+  .delete-btn:hover {
+    background-color: #FF0000; /* darker red */
+  }
+  
+  .delete-btn:active {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+  }
+  
+ 
+  
+  
